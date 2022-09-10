@@ -10,9 +10,10 @@ int main (void)
 {
 
 	char vam = 'a';
-	for (; vam <= 'z'; vam++)
+	for(; vam <= 'z'; vam++)
 	{
 		putchar(vam);
+		putchar('\n');
 	}
 
 	return (0);

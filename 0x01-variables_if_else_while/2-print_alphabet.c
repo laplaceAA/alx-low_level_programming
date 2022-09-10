@@ -10,10 +10,9 @@ int main (void)
 {
 
 	char vam = 'a';
-	while (vam <= 'z');
+	for (; vam <= 'z'; vam++)
 	{
-		printf("%c\n", vam);
-		vam++;
+		putchar(vam);
 	}
 
 	return (0);

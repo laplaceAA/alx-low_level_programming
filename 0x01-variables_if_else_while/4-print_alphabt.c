@@ -8,16 +8,14 @@
 
 int main(void)
 {
-
-	char vam;
-	for (vam = 'a'; vam <= 'z'; vam++) 
-	
+	char vim ='a';
+	for (; vim <='z'; vim++)
 	{
-		putchar(vam);
+		if (vim != 'e' && vim != 'q')
+		{
+			putchar(vim);
+		}
+		putchar('\n')
 	}
-
-	putchar('\n');
-
 	return (0);
-
 }

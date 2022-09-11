@@ -8,12 +8,15 @@
 
 int main(void)
 {
+	
+	char vim;
+	char vam;
 
-	for (char vam ='a'; vam <='z'; vam++)
+	for (vam = 'a'; vam <= 'z'; vam++)
 	{
 		putchar(vam);
 	}
-	for (char vim ='A'; vim <='Z'; vim++)
+	for ( vim = 'A'; vim <= 'Z'; vim++)
 	{
 		putchar(vim);
 	}

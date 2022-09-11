@@ -13,8 +13,9 @@ int main (void)
 	for(; vam <= 'z'; vam++)
 	{
 		putchar(vam);
-		putchar(' ');
 	}
+
+	putchar('\n');
 
 	return (0);
 

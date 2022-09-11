@@ -9,13 +9,13 @@
 int main(void)
 {
 	char vim ='a';
-	for (; vim <='z'; vim++)
+	for (; vim <= 'z'; vim++)
 	{
 		if (vim != 'e' && vim != 'q')
 		{
 			putchar(vim);
 		}
-		putchar('\n')
+		putchar('\n');
 	}
 	return (0);
 }

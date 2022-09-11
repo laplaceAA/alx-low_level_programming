@@ -13,7 +13,7 @@ int main (void)
 	for(; vam <= 'z'; vam++)
 	{
 		putchar(vam);
-		putchar('\n');
+		putchar(' ');
 	}
 
 	return (0);

@@ -1,6 +1,5 @@
 /*
  * File: 4-print_alphabt.c
- * Auth: oyebamiji
  */
 
 #include <stdio.h>
@@ -24,5 +23,3 @@ int main(void)
 
 	return (0);
 }
-
-
